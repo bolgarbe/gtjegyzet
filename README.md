@@ -1,0 +1,2 @@
+# gtjegyzet
+Gépi tanulás jegyzet
