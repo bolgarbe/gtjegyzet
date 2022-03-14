@@ -1,0 +1,3 @@
+[pygments.styles]
+                    algforopt=pygments_style_algforopt:AlgForOptStyle
+					

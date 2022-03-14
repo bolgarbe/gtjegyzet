@@ -1,0 +1,10 @@
+README.md
+setup.py
+pygments_style_algforopt/__init__.py
+pygments_style_algforopt/algforopt.py
+pygments_style_algforopt.egg-info/PKG-INFO
+pygments_style_algforopt.egg-info/SOURCES.txt
+pygments_style_algforopt.egg-info/dependency_links.txt
+pygments_style_algforopt.egg-info/entry_points.txt
+pygments_style_algforopt.egg-info/requires.txt
+pygments_style_algforopt.egg-info/top_level.txt

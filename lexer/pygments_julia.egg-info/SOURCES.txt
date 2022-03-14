@@ -1,0 +1,9 @@
+README.md
+setup.py
+pygments_julia/__init__.py
+pygments_julia.egg-info/PKG-INFO
+pygments_julia.egg-info/SOURCES.txt
+pygments_julia.egg-info/dependency_links.txt
+pygments_julia.egg-info/entry_points.txt
+pygments_julia.egg-info/requires.txt
+pygments_julia.egg-info/top_level.txt

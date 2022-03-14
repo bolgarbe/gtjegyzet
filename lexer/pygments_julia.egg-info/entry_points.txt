@@ -1,0 +1,4 @@
+[pygments.lexers]
+                    julia1=pygments_julia:Julia1Lexer
+					jlcon1=pygments_julia:Julia1ConsoleLexer
+					

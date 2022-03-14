@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: pygments-style-algforopt
+Version: 0.0.0
+Summary: Pygments style for Algorithms for Optimization.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: # pygments-style-algforopt
+        
+        Pygments style used in the textbook [**Algorithms for Optimization**](http://mitpress.mit.edu/books/algorithms-optimization) by Mykel J. Kochenderfer and Tim A. Wheeler.
+        
+        ## Install
+        
+            $ git clone https://github.com/sisl/pygments-style-algforopt
+            $ cd pygments-style-algforopt
+            $ (sudo) python setup.py install
+        
+        ## Acknowledgments
+        
+        This package is inspired by colors from the Monokai theme by Jon Skinner of Sublime Text. Contributions came from Sidd Rao, Tim Wheeler, and Mykel Kochenderfer.
+Keywords: pygments algforopt style
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

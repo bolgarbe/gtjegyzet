@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: pygments-julia
+Version: 0.0.0
+Summary: Pygments lexers for Julia.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: # Pygments Julia Lexer
+        
+        A custom Julia lexer for [Pygments](http://pygments.org/).
+        
+        ## Install
+        
+            $ git clone **url**
+            $ cd pygments-julia
+            $ (sudo) python setup.py install
+        
+        ### Verify
+        
+        Verify that the package installed correctly by looking for the lexers "julia1" and "jlcon1" in the output of
+        
+            $ pygmentize -L lexers
+        
+        
+Keywords: pygments julia lexer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

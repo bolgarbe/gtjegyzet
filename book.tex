@@ -1,0 +1,42 @@
+% Compilation process:
+
+% julia pull_julia_code.jl
+% lualatex book
+% pythontex book
+% biber book
+% lualatex book
+
+
+\documentclass[fullbook]{tufte_algorithms_book}
+
+\begin{document}
+\selectlanguage{magyar}
+\input{titlepage}
+\forceheader{Contents}
+\tableofcontents
+\mainmatter
+\begin{jlcode}
+	include("../support_code.jl")
+\end{jlcode}
+\include{chapter/intro}
+\include{chapter/math}
+\include{chapter/models}
+\include{chapter/numsim}
+\include{chapter/results}
+\include{chapter/teaching}
+\include{chapter/summary}
+% Add additional include statements for your other chapters.
+\appendix
+\include{chapter/appendix}
+
+\solutions
+\backmatter
+\chapter*{Irodalomjegyzék}
+\addcontentsline{toc}{chapter}{Irodalomjegyzék}
+\forceheader{Irodalomjegyzék}
+\printbibliography[heading=none]
+
+\forceheader{Index}
+\printindex
+
+\end{document}
